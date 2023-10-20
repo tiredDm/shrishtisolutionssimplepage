@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.headwiththing{
+    height: 12vh;
+    display: flex;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 12vh;
+    background-color: #2e1065;
+}
+ 
+.header a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    height: 88vh;
+}
+
+.content-card{
+    background-color: white;
+    width: 35vw;
+    height: 50vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3vw;
+    box-shadow: 0px 10px 4px darkslateblue;
+}
